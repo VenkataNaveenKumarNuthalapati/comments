@@ -1,0 +1,51 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: aliceblue;
+  padding: 50px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+}
+.form-container p {
+  margin-top: 5px;
+}
+input {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+textarea {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+.form-container button {
+  margin-top: 5px;
+  background-color: #0284c7;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.comment-count {
+  background-color: #0284c7;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}

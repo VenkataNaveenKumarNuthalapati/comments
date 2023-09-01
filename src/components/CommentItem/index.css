@@ -1,0 +1,92 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.char {
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.comment-container {
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-left: 0;
+}
+
+.comment-top-container {
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+.comment-top-container button {
+  background-color: transparent;
+  border: none;
+}
+.comment-bottom-container button {
+  background-color: transparent;
+  border: none;
+}
+
+.comment-bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.likeSpan {
+  color: #0ea5e9;
+  padding-left: 10px;
+}
+.Span {
+  color: darkgray;
+  padding-left: 10px;
+}
+.initial-container {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
